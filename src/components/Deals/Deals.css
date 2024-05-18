@@ -132,9 +132,10 @@
     font-weight: 500;
 }
 
-.prenext-btn {
+.Deals .prenext-btn {
     margin-top: 5.5rem;
     gap: 24px;
+    /* margin-bottom: 1rem; */
 }
 
 .btn-next {
@@ -161,4 +162,22 @@
 .btn-previous img{
     margin-bottom: 5px;
     margin-left: -2px;
+}
+
+.Deal-detail p{
+width: 433px;
+height: 64px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+text-align: center;
+
+/* Paragraph */
+color: #666666;
+
+
 }

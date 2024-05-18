@@ -5,7 +5,7 @@
 }
 
 .navbar-main {
-    width: 1920px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,15 +15,16 @@
     height: 114px;
     width: 1170px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-nav .logo {
-    position: absolute;
-    left: 0;
+.navbar .logo {
+    /* position: absolute;
+    left: 0; */
     font-weight: bold;
     font-size: 24px;
+    box-shadow: none;
 }
 
 .list ul {
@@ -38,17 +39,20 @@ nav .logo {
     margin-top: 16px;
 }
 
-nav .login {
-    position: absolute;
-    right: 100px;
+.navbar .login {
+    /* position: absolute;
+    right: 100px; */
     color: #FD8D3A;
+    box-shadow: none;
 }
 
-nav .signup {
-    position: absolute;
-    right: 0;
+.navbar .signup {
+    /* position: absolute;
+    right: 0; */
     background-color: #FA7436;
     color: #FFFFFF;
+    box-shadow: none;
+
 }
 
 .imghome {
@@ -57,17 +61,14 @@ nav .signup {
     height: 530px;
     bottom: -20px;
     left: 40px;
-
-
-
 }
 
 .containerhome {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* height: 600px; */
-    margin-left: 14rem;
+    /* margin-left: 14rem; */
 }
 
 .ellips {
@@ -85,20 +86,15 @@ nav .signup {
 }
 
 .vectorimg {
-    position: absolute;
-    top: 0;
-    width: 785px;
+    width: 760px;
     height: 191px;
-    /* right: 40px; */
-    /* background: #CCCCCC; */
-
 }
 
 .main-img {
     position: relative;
     height: 585px;
-    width: 785px;
-    margin-left: 5rem;
+    width: 740px;
+    /* margin-left: 5rem; */
 }
 
 .home {
@@ -156,11 +152,11 @@ top: 452px; */
     height: 124px;
     /* Shape */
 
-    position: absolute;
+    /* position: absolute; */
     width: 841px;
     height: 124px;
-    left: 540px;
-    top: 755px;
+    /* left: 540px;
+    top: 755px; */
     background: #FFFFFF;
     box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -207,4 +203,15 @@ top: 452px; */
 
 .que{
     font-size: 12px;
+}
+
+.navbar-main2{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.Hero-btncontain{
+    display: flex;
+    align-items: end;
 }
